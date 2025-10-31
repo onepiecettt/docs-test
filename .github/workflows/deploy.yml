@@ -38,5 +38,6 @@ jobs:
           REMOTE_USER: ${{ secrets.SSH_USER }}
           REMOTE_PORT: ${{ secrets.SSH_PORT }} 
           SOURCE: "build/"
-          TARGET: ${{ secrets.TARGET_DIR }}
+          #TARGET: ${{ secrets.TARGET_DIR }}
+          TARGET: "/mnt/workspace/docs/"
           ARGS: "-avz --delete"
