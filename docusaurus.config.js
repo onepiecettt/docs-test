@@ -48,7 +48,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: "https://github.com/onepiecettt/main/",
+          editUrl: "https://github.com/onepiecettt/docs-test/edit/main/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
