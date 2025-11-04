@@ -114,6 +114,25 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+              href: 'https://ai.luckfox.com/',
+              label: 'Ask AI',
+              position: 'left',
+          },
+          {
+              href: 'https://forums.luckfox.com',
+              label: 'Forums',
+              position: 'right',
+          },
+          {
+              href: 'https://github.com/LuckfoxTECH',
+              label: 'GitHub',
+              position: 'right',
+          },
+          {
+              type: 'localeDropdown',
+              position: 'right',
+          },
         ],
       },
       footer: {
