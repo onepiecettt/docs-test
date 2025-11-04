@@ -20,18 +20,17 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'http://47.115.129.219',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'onepiecettt', // Usually your GitHub org/user name.
-  projectName: 'docs-test', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -48,9 +47,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: "https://github.com/onepiecettt/docs-test/edit/main/",
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -74,12 +74,14 @@ const config = {
     ],
   ],
 
-  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'My Site',
         logo: {
