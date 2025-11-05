@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'http://http://47.115.129.219',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'onepiecettt', // Usually your GitHub org/user name.
+  projectName: 'ddocs-tes', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -63,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/onepiecettt/docs-test/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -74,7 +74,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/onepiecettt/docs-test/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -108,12 +108,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
               href: 'https://ai.luckfox.com/',
               label: 'Ask AI',
@@ -149,36 +144,42 @@ const config = {
           },
           {
             title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+            items: [{
+                    label: 'Shop',
+                    href: 'http://www.luckfox.com/',
+                },
+                {
+                    label: 'Ask AI',
+                    href: 'https://ai.luckfox.com',
+                },
+                {
+                    label: 'Forums',
+                    href: 'https://forums.luckfox.com',
+                },
+                {
+                    label: 'GitHub',
+                    href: 'https://github.com/LuckfoxTECH',
+                },
             ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+        },
+        {
+            title: 'Information',
+            items: [{
+                    label: 'About Luckfox',
+                    href: 'https://www.luckfox.com/about_us',
+                },
+                {
+                    label: 'Contact Us',
+                    href: 'https://www.luckfox.com/index.php?route=information/contact',
+                },
+                {
+                    label: 'Technical Support',
+                    href: 'https://wiki.luckfox.com/intro',
+                },
             ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        },
+    ],
+          copyright: `Copyright © ${new Date().getFullYear()} Luckfox Technology.`,
       },
       prism: {
         theme: prismThemes.github,
