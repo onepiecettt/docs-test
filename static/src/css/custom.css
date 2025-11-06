@@ -1,0 +1,501 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+/* You can override the default Infima variables here. */
+
+:root {
+    --ifm-color-primary: #00a25a;
+    /*default: #2e8555   ;added by yiwen*/
+    --ifm-color-primary-dark: #29784c;
+    --ifm-color-primary-darker: #277148;
+    --ifm-color-primary-darkest: #205d3b;
+    --ifm-color-primary-light: #33925d;
+    --ifm-color-primary-lighter: #359962;
+    --ifm-color-primary-lightest: #3cad6e;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --ifm-container-width-xl: 96%;
+    /*add by kaloha */
+}
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+
+[data-theme='dark'] {
+    --ifm-color-primary: #00a25a;
+    /*default:#8dc215  ;added by yiwen*/
+    --ifm-color-primary-dark: #8dc215;
+    --ifm-color-primary-darker: #8dc215;
+    --ifm-color-primary-darkest: #8dc215;
+    --ifm-color-primary-light: #8dc215;
+    --ifm-color-primary-lighter: #8dc215;
+    --ifm-color-primary-lightest: #8dc215;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar_doc_items {
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.navbar_logo_items {
+    width: 100%;
+    height: 80%;
+}
+
+
+/* Left Column */
+
+.download_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Getting_Started.md*/
+
+.start_card_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.start_card_item {
+    border-radius: 30px/30px;
+    width: 300px;
+    height: 130px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin: 0 20px;
+    margin-bottom: 30px;
+    box-sizing: content-box;
+}
+
+.start_card_item:hover {
+    border: 2px solid #8DC21F;
+    color: #fff;
+    text-decoration: none;
+}
+
+.start_card_wrapper {}
+
+
+/* inroduced production */
+
+.intro_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro_item {
+    width: 50%;
+    height: 125px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.intro_item:hover {
+    border: 2px solid #8DC21F;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* title */
+
+.title_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title_item {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.title_item:hover {
+    border: 2px solid #8DC21F;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* independent production */
+
+.independent_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.independent_item {
+    width: 100%;
+    height: 200px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.independent_item:hover {
+    border: 2px solid #8DC21F;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* get one now button */
+
+.get_one_now_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.get_one_now_item {
+    border-radius: 10px/10px;
+    width: 195px;
+    height: 28px;
+    background: #4EC354;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.get_one_now_item:hover {
+    border: 2px solid #8DC21F;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* download Arduino button */
+
+.download_arduino_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.download_arduino_item {
+    border-radius: 10px/10px;
+    width: 300px;
+    height: 28px;
+    background: #00979c;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.download_arduino_item:hover {
+    border: 2px solid #00979c;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* github button */
+
+.github_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.github_item {
+    border-radius: 10px/10px;
+    width: 260px;
+    height: 28px;
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.github_item:hover {
+    border: 2px solid #7a7e73;
+    color: #fff;
+    text-decoration: none;
+}
+
+.table-center {
+    display: table;
+    margin: 0 auto;
+}
+
+
+/* embedded world product list button */
+
+.embedded_world_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.embedded_world_item {
+    border-radius: 12px/12px;
+    width: 100%;
+    height: 100px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.embedded_world_item:hover {
+    border: 2px solid #8DC21F;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 200px 50px;
+    background-image: url("https://files.seeedstudio.com/wiki/wiki-platform/S.png");
+    background-size: auto;
+    background-position: center;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(3);
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+
+/*added by kaloha ,date240607,*/
+
+
+/* get one now button */
+
+.get_one_now_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.get_one_now_item {
+    border-radius: 10px/10px;
+    width: 195px;
+    height: 28px;
+    background: #4ec354;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: content-box;
+}
+
+.get_one_now_item:hover {
+    border: 2px solid #8dc21f;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*added by yiwen ,date240607,*/
+
+.fox-twopart {
+    overflow: hidden;
+}
+
+.fox-twopart img {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 50%;
+    height: auto;
+}
+
+.fox-twopart p {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .fox-twopart img {
+        float: none;
+        max-width: 100%;
+    }
+}
+
+.fox-button {
+    display: inline-block;
+    padding: 0.8em 3em;
+    color: white;
+    background-color: var(--ifm-link-color);
+    border-radius: 100em;
+}
+
+.fox-button:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+
+/*added by yiwen ,date240831,*/
+
+.st-box {
+    border: 1px solid var(--ifm-toc-border-color);
+}
+
+.st-box-left,
+.st-box-right,
+/* .st-box .anchor {
+    position: relative;
+}
+
+.st-box .anchor:after {
+    content: "";
+    display: block;
+    background-image: linear-gradient(90deg, rgba(0, 175, 96, 0), rgba(0, 175, 96, 0.8));
+    border-radius: 100px;
+    height: 0.4em;
+    position: absolute;
+    width: 1.3em;
+    z-index: 0;
+    top: 0.8em;
+} */
+
+.started-tutorial .card {
+    overflow: unset;
+}
+
+.started-tutorial {
+    margin-bottom: calc(var(--ifm-heading-vertical-rhythm-bottom)* var(--ifm-leading));
+}
+
+.card-demo-left {
+    margin-right: 20px;
+}
+
+.card-demo-right {
+    margin-left: 20px;
+}
+
+.started-tutorial>div:first-child {
+    border-right: 10px solid;
+    border-image: linear-gradient(rgb(0, 175, 96, 0.1), rgb(0, 175, 96, 1)) 1;
+    position: relative;
+}
+
+.started-tutorial>div:first-child .card-demo::after {
+    width: 56px;
+    height: 34px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI1NiIgaGVpZ2h0PSIzMi4xNzE1NzM2Mzg5MTYwMTYiIHZpZXdCb3g9IjAgMCA1NiAzMi4xNzE1NzM2Mzg5MTYwMTYiPjxnPjxwYXRoIGQ9Ik0wLDVDMCw2LjMyNjA4LDAuNTI2Nzg0LDcuNTk3ODUsMS40NjQ0Nyw4LjUzNTUzTDIzLjA1MDMsMzAuMTIxM1EyNS4xMDA1LDMyLjE3MTYsMjgsMzIuMTcxNlEzMC44OTk1LDMyLjE3MTYsMzIuOTQ5NywzMC4xMjEzTDU0LjUzNTUsOC41MzU1M0M1NS40NzMyLDcuNTk3ODUsNTYsNi4zMjYwOCw1Niw1QzU2LDIuMjM4NTgsNTMuNzYxNCwwLDUxLDBDNDkuNjczOSwwLDQ4LjQwMjEsMC41MjY3ODQsNDcuNDY0NSwxLjQ2NDQ3TDI4LDIwLjkyODlMOC41MzU1MywxLjQ2NDQ3QzcuNTk3ODUsMC41MjY3ODQsNi4zMjYwOCwwLDUsMEMyLjIzODU4LDAsMCwyLjIzODU4LDAsNVoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzAwQUY2MCIgZmlsbC1vcGFjaXR5PSIxIi8+PC9nPjwvc3ZnPg==);
+    right: -33px;
+    bottom: -6px;
+}
+
+.started-tutorial .st-box::after {
+    width: 54px;
+    height: 18px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBmaWxsPSJub25lIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI1NCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDU0IDE4Ij48Zz48Zz48cGF0aCBkPSJNNDUsMThDNDkuOTcwNiwxOCw1NCwxMy45NzA2LDU0LDlDNTQsNC4wMjk0NCw0OS45NzA2LDAsNDUsMEM0MC43MTY4LDAsMzcuMTMyNSwyLjk5MjAyLDM2LjIyMyw3TDcuNDY0ODQsN0M2Ljc3MzIzLDUuODA0NCw1LjQ4MDU2LDUsNCw1QzEuNzkwODYsNSwwLDYuNzkwODYsMCw5QzAsMTEuMjA5MSwxLjc5MDg2LDEzLDQsMTNDNS40ODA1NiwxMyw2Ljc3MzIzLDEyLjE5NTYsNy40NjQ4NCwxMUwzNi4yMjMsMTFDMzcuMTMyNSwxNS4wMDgsNDAuNzE2OCwxOCw0NSwxOFoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzAwQUY2MCIgZmlsbC1vcGFjaXR5PSIxIi8+PC9nPjwvZz48L3N2Zz4=);
+}
+
+.started-tutorial .st-box::after,
+.started-tutorial>div:first-child .card-demo::after {
+    content: "";
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.st-box-left::after {
+    right: -51px;
+}
+
+.st-box-right::after {
+    left: -51px;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 996px) {
+    .card-demo-left,
+    .card-demo-right {
+        margin: 0;
+    }
+    .started-tutorial .st-box::after,
+    .started-tutorial>div:first-child .card-demo::after {
+        display: none;
+    }
+    .started-tutorial>div:first-child {
+        border: none;
+    }
+}
+
+.custom-image {
+  display: block;
+  max-width: 100%; 
+  height: auto;   
+  width: auto;    
+}

@@ -187,7 +187,7 @@ sudo nano /etc/udev/rules.d/99-waveshare-touch.rules
 
 2.添加以下代码
 
-```
+```bash
 #90度：
 ENV{ID_INPUT_TOUCHSCREEN}=="1", ENV{LIBINPUT_CALIBRATION_MATRIX}="0 -1 1 1 0 0"
 

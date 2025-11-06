@@ -183,7 +183,7 @@ If you use the graphical interface for rotation, you can check "Touchscreen" in 
 
 4. Edit the file:
 
-   ```
+   ```bash
    #90°：
    ENV{ID_INPUT_TOUCHSCREEN}=="1", ENV{LIBINPUT_CALIBRATION_MATRIX}="0 -1 1 1 0 0"
 
