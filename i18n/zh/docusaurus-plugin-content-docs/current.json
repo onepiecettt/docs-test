@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Display": {
+    "message": "Display",
+    "description": "The label for category 'Display' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Display.link.generated-index.title": {
+    "message": "Product List",
+    "description": "The generated-index page title for category 'Display' in sidebar 'tutorialSidebar'"
+  }
+}

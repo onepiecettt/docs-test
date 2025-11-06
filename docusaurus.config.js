@@ -48,7 +48,7 @@ const config = {
           },
           zh: {
               label: '中文',
-              path: 'cn',
+              path: 'zh',
           },
       },
   },
@@ -98,7 +98,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'luckfox',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -108,7 +108,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {

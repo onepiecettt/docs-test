@@ -1,0 +1,15 @@
+{
+  "position": 2.5,
+  "label": "display.category.label",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "产品列表",
+    "slug": "/Display"  
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
