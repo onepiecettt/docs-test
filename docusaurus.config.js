@@ -116,16 +116,16 @@ const config = {
               label: 'Ask AI',
               position: 'left',
           },
-                    {
+          {
             type: 'dropdown',
             label: 'Rockchip',           
             position: 'left',
             items: [
-              { label: 'Luckfox Pico RV1106 Series',  to: '/Display' },
-              { label: 'Luckfox Lyra RK3506 Series', to: '/Display'  },
-              { label: 'Luckfox Omni3576 RK3576', to: '/Display' },
-              { label: 'Core3566', to: '/Display' },
-              { label: 'Luckfox Nova RK3308', to: '/products/sirider' },
+              { label: 'Luckfox Pico RV1106 Series',  to: '/docs/Display/3.5inch-RPi-LCD-CTP' },
+              { label: 'Luckfox Lyra RK3506 Series', to: '/docs/Display/3.5inch-RPi-LCD-CTP'  },
+              { label: 'Luckfox Omni3576 RK3576', to: '/docs/Display/3.5inch-RPi-LCD-CTP' },
+              { label: 'Core3566', to: '/docs/Display/3.5inch-RPi-LCD-CTP' },
+              { label: 'Luckfox Nova RK3308', to: '//docs/Display/3.5inch-RPi-LCD-CTP' },
             ],
           },
           {
@@ -133,8 +133,8 @@ const config = {
             label: 'RaspberryPi',           
             position: 'left',
             items: [
-              { label: 'Luckfox-CM5-IO-Board',  to: '/Display' },
-              { label: 'Pico2', to: '/Display'  },
+              { label: 'Luckfox-CM5-IO-Board',  to: '/docs/Display/3.5inch-RPi-LCD-CTP' },
+              { label: 'Pico2', to: '/docs/Display/3.5inch-RPi-LCD-CTP'  },
             ],
           },
           {
@@ -142,9 +142,9 @@ const config = {
             label: 'Cameras',           
             position: 'left',
             items: [
-              { label: 'Imx415 Series',  to: '/Display' },
-              { label: 'SmartSens', to: '/Display'  },
-              { label: 'MIS5001', to: '/Display' },
+              { label: 'Imx415 Series',  to: '/docs/Display/3.5inch-RPi-LCD-CTP' },
+              { label: 'SmartSens', to: '/docs/Display/3.5inch-RPi-LCD-CTP'  },
+              { label: 'MIS5001', to: '/docs/Display/3.5inch-RPi-LCD-CTP' },
             ],
           },
           // {
