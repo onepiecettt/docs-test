@@ -116,6 +116,47 @@ const config = {
               label: 'Ask AI',
               position: 'left',
           },
+                    {
+            type: 'dropdown',
+            label: 'Rockchip',           
+            position: 'left',
+            items: [
+              { label: 'Luckfox Pico RV1106 Series',  to: '/products/zhinan' },
+              { label: 'Luckfox Lyra RK3506 Series', to: '/products/rock'  },
+              { label: 'Luckfox Omni3576 RK3576', to: '/products/sirider' },
+              { label: 'Core3566', to: '/products/sirider' },
+              { label: 'Luckfox Nova RK3308', to: '/products/sirider' },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'RaspberryPi',           
+            position: 'left',
+            items: [
+              { label: 'Luckfox-CM5-IO-Board',  to: '/products/zhinan' },
+              { label: 'Pico2', to: '/products/rock'  },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Cameras',           
+            position: 'left',
+            items: [
+              { label: 'Imx415 Series',  to: '/products/zhinan' },
+              { label: 'SmartSens', to: '/products/rock'  },
+              { label: 'MIS5001', to: '/products/sirider' },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Display',           
+            position: 'left',
+            items: [
+              { label: 'Imx415 Series',  to: '/products/zhinan' },
+              { label: 'SmartSens', to: '/products/rock'  },
+              { label: 'MIS5001', to: '/products/sirider' },
+            ],
+          },
           {
               href: 'https://forums.luckfox.com',
               label: 'Forums',

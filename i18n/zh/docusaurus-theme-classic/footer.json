@@ -1,22 +1,22 @@
 {
   "link.title.Docs": {
-    "message": "Docs",
+    "message": "文档",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "社区",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Information": {
-    "message": "Information",
+    "message": "关于幸狐",
     "description": "The title of the footer links column with title=Information in the footer"
   },
   "link.item.label.Tutorial": {
-    "message": "Tutorial",
+    "message": "教程",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
   "link.item.label.Shop": {
-    "message": "Shop",
+    "message": "幸狐官方商城",
     "description": "The label of footer link with label=Shop linking to http://www.luckfox.com/"
   },
   "link.item.label.Ask AI": {
@@ -24,7 +24,7 @@
     "description": "The label of footer link with label=Ask AI linking to https://ai.luckfox.com"
   },
   "link.item.label.Forums": {
-    "message": "Forums",
+    "message": "幸狐官方论坛",
     "description": "The label of footer link with label=Forums linking to https://forums.luckfox.com"
   },
   "link.item.label.GitHub": {
@@ -32,19 +32,19 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/LuckfoxTECH"
   },
   "link.item.label.About Luckfox": {
-    "message": "About Luckfox",
+    "message": "关于我们",
     "description": "The label of footer link with label=About Luckfox linking to https://www.luckfox.com/about_us"
   },
   "link.item.label.Contact Us": {
-    "message": "Contact Us",
+    "message": "联系我们",
     "description": "The label of footer link with label=Contact Us linking to https://www.luckfox.com/index.php?route=information/contact"
   },
   "link.item.label.Technical Support": {
-    "message": "Technical Support",
+    "message": "技术支持",
     "description": "The label of footer link with label=Technical Support linking to https://wiki.luckfox.com/intro"
   },
   "copyright": {
-    "message": "Copyright © 2025 Luckfox Technology.",
+    "message": "Copyright © 2025 深圳市幸狐科技有限公司",
     "description": "The footer copyright"
   }
 }

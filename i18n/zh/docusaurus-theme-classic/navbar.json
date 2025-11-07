@@ -8,19 +8,75 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Wiki": {
-    "message": "Wiki",
+    "message": "产品手册",
     "description": "Navbar item with label Wiki"
   },
   "item.label.Ask AI": {
     "message": "Ask AI",
     "description": "Navbar item with label Ask AI"
   },
+  "item.label.Rockchip": {
+    "message": "瑞芯微",
+    "description": "Navbar item with label Rockchip"
+  },
+  "item.label.RaspberryPi": {
+    "message": "树莓派系列",
+    "description": "Navbar item with label RaspberryPi"
+  },
+  "item.label.Cameras": {
+    "message": "摄像头",
+    "description": "Navbar item with label Cameras"
+  },
+  "item.label.Display": {
+    "message": "显示屏",
+    "description": "Navbar item with label Display"
+  },
   "item.label.Forums": {
-    "message": "Forums",
+    "message": "论坛",
     "description": "Navbar item with label Forums"
   },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Luckfox Pico RV1106 Series": {
+    "message": "Luckfox Pico RV1106 Series",
+    "description": "Navbar item with label Luckfox Pico RV1106 Series"
+  },
+  "item.label.Luckfox Lyra RK3506 Series": {
+    "message": "Luckfox Lyra RK3506 Series",
+    "description": "Navbar item with label Luckfox Lyra RK3506 Series"
+  },
+  "item.label.Luckfox Omni3576 RK3576": {
+    "message": "Luckfox Omni3576 RK3576",
+    "description": "Navbar item with label Luckfox Omni3576 RK3576"
+  },
+  "item.label.Core3566": {
+    "message": "Core3566",
+    "description": "Navbar item with label Core3566"
+  },
+  "item.label.Luckfox Nova RK3308": {
+    "message": "Luckfox Nova RK3308",
+    "description": "Navbar item with label Luckfox Nova RK3308"
+  },
+  "item.label.Luckfox-CM5-IO-Board": {
+    "message": "Luckfox-CM5-IO-Board",
+    "description": "Navbar item with label Luckfox-CM5-IO-Board"
+  },
+  "item.label.Pico2": {
+    "message": "Pico2",
+    "description": "Navbar item with label Pico2"
+  },
+  "item.label.Imx415 Series": {
+    "message": "Imx415 Series",
+    "description": "Navbar item with label Imx415 Series"
+  },
+  "item.label.SmartSens": {
+    "message": "SmartSens",
+    "description": "Navbar item with label SmartSens"
+  },
+  "item.label.MIS5001": {
+    "message": "MIS5001",
+    "description": "Navbar item with label MIS5001"
   }
 }
