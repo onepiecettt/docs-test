@@ -121,10 +121,10 @@ const config = {
             label: 'Rockchip',           
             position: 'left',
             items: [
-              { label: 'Luckfox Pico RV1106 Series',  to: '/products/zhinan' },
-              { label: 'Luckfox Lyra RK3506 Series', to: '/products/rock'  },
-              { label: 'Luckfox Omni3576 RK3576', to: '/products/sirider' },
-              { label: 'Core3566', to: '/products/sirider' },
+              { label: 'Luckfox Pico RV1106 Series',  to: '/Display' },
+              { label: 'Luckfox Lyra RK3506 Series', to: '/Display'  },
+              { label: 'Luckfox Omni3576 RK3576', to: '/Display' },
+              { label: 'Core3566', to: '/Display' },
               { label: 'Luckfox Nova RK3308', to: '/products/sirider' },
             ],
           },
@@ -133,8 +133,8 @@ const config = {
             label: 'RaspberryPi',           
             position: 'left',
             items: [
-              { label: 'Luckfox-CM5-IO-Board',  to: '/products/zhinan' },
-              { label: 'Pico2', to: '/products/rock'  },
+              { label: 'Luckfox-CM5-IO-Board',  to: '/Display' },
+              { label: 'Pico2', to: '/Display'  },
             ],
           },
           {
@@ -142,21 +142,21 @@ const config = {
             label: 'Cameras',           
             position: 'left',
             items: [
-              { label: 'Imx415 Series',  to: '/products/zhinan' },
-              { label: 'SmartSens', to: '/products/rock'  },
-              { label: 'MIS5001', to: '/products/sirider' },
+              { label: 'Imx415 Series',  to: '/Display' },
+              { label: 'SmartSens', to: '/Display'  },
+              { label: 'MIS5001', to: '/Display' },
             ],
           },
-          {
-            type: 'dropdown',
-            label: 'Display',           
-            position: 'left',
-            items: [
-              { label: 'Imx415 Series',  to: '/products/zhinan' },
-              { label: 'SmartSens', to: '/products/rock'  },
-              { label: 'MIS5001', to: '/products/sirider' },
-            ],
-          },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Display',           
+          //   position: 'left',
+          //   items: [
+          //     { label: 'Imx415 Series',  to: '/products/zhinan' },
+          //     { label: 'SmartSens', to: '/products/rock'  },
+          //     { label: 'MIS5001', to: '/products/sirider' },
+          //   ],
+          // },
           {
               href: 'https://forums.luckfox.com',
               label: 'Forums',
