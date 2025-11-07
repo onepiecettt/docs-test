@@ -1,15 +1,15 @@
 {
   "position": 2.5,
-  "label": "display.category.label",
+  "label": "Display",
   "collapsible": true,
   "collapsed": false,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "产品列表",
-    "slug": "/Display"  
+    "title": "Display Index",  
+    "description": "This page lists all display-related products."
   },
   "customProps": {
-    "description": "This description can be used in the swizzled DocCard"
+    "note": "This description can be used in the swizzled DocCard"
   }
 }

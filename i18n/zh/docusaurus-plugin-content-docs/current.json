@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Display": {
-    "message": "Display",
+    "message": "显示屏",
     "description": "The label for category 'Display' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Display.link.generated-index.title": {
-    "message": "Product List",
+    "message": "产品列表",
     "description": "The generated-index page title for category 'Display' in sidebar 'tutorialSidebar'"
   }
 }

@@ -1,0 +1,50 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Information": {
+    "message": "Information",
+    "description": "The title of the footer links column with title=Information in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Shop": {
+    "message": "Shop",
+    "description": "The label of footer link with label=Shop linking to http://www.luckfox.com/"
+  },
+  "link.item.label.Ask AI": {
+    "message": "Ask AI",
+    "description": "The label of footer link with label=Ask AI linking to https://ai.luckfox.com"
+  },
+  "link.item.label.Forums": {
+    "message": "Forums",
+    "description": "The label of footer link with label=Forums linking to https://forums.luckfox.com"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/LuckfoxTECH"
+  },
+  "link.item.label.About Luckfox": {
+    "message": "About Luckfox",
+    "description": "The label of footer link with label=About Luckfox linking to https://www.luckfox.com/about_us"
+  },
+  "link.item.label.Contact Us": {
+    "message": "Contact Us",
+    "description": "The label of footer link with label=Contact Us linking to https://www.luckfox.com/index.php?route=information/contact"
+  },
+  "link.item.label.Technical Support": {
+    "message": "Technical Support",
+    "description": "The label of footer link with label=Technical Support linking to https://wiki.luckfox.com/intro"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Luckfox Technology.",
+    "description": "The footer copyright"
+  }
+}

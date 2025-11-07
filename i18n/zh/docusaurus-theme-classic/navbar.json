@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "luckfox",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Wiki": {
+    "message": "Wiki",
+    "description": "Navbar item with label Wiki"
+  },
+  "item.label.Ask AI": {
+    "message": "Ask AI",
+    "description": "Navbar item with label Ask AI"
+  },
+  "item.label.Forums": {
+    "message": "Forums",
+    "description": "Navbar item with label Forums"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
