@@ -10,5 +10,29 @@
   "sidebar.tutorialSidebar.category.Display.link.generated-index.title": {
     "message": "产品列表",
     "description": "The generated-index page title for category 'Display' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.link.Rockchip RV1106": {
+    "message": "瑞芯微 RV1106",
+    "description": "The label for link 'Rockchip RV1106' in sidebar 'tutorialSidebar', linking to '/docs/Luckfox-Pico-86-Panel'"
+  },
+  "sidebar.tutorialSidebar.link.Rockchip": {
+    "message": "瑞芯微 RV1103",
+    "description": "The label for link 'Rockchip' in sidebar 'tutorialSidebar', linking to '/docs/Luckfox-Pico-86-Panel'"
+  },
+  "sidebar.aSidebar.category.GUI": {
+    "message": "显示与图形 GUI",
+    "description": "The label for category 'GUI' in sidebar 'aSidebar'"
+  },
+  "sidebar.aSidebar.category.QT": {
+    "message": "QT",
+    "description": "The label for category 'QT' in sidebar 'aSidebar'"
+  },
+  "sidebar.bSidebar.category.GUI": {
+    "message": "显示与图形 GUI",
+    "description": "The label for category 'GUI' in sidebar 'bSidebar'"
+  },
+  "sidebar.bSidebar.category.QT": {
+    "message": "QT",
+    "description": "The label for category 'QT' in sidebar 'bSidebar'"
   }
 }

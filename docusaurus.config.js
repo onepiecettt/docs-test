@@ -97,6 +97,21 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+        comments: {
+          giscus: {
+            repo: 'onepiecettt/docs-test',
+            repoId: 'R_kgDOPd0nbQ',      
+            category: 'General',
+            categoryId: 'DIC_kwDOxxxxxxxxxx',
+            mapping: 'pathname',
+            strict: '0',
+            reactionsEnabled: '1',
+            emitMetadata: '0',
+            inputPosition: 'top',
+            theme: 'preferred_color_scheme',
+            lang: 'zh-CN',
+          },
+        },
       navbar: {
         title: 'luckfox',
         logo: {
